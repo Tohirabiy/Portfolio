@@ -1,0 +1,48 @@
+.leadingd{
+    line-height: 72px; /* 120% */
+letter-spacing: -1.2px;
+
+}
+.dsd{
+    color: var(--gray-600, #4B5563);
+
+width: 728px;
+}
+.bsdd{
+    width: 24px !important;
+height: 24px !important;
+flex-shrink: 0;
+border-radius: 20px;
+background: #10B981;
+}
+
+.vv {
+    position: relative;
+    width: 300px; /* Adjust the width and height to match your images */
+    height: 200px;
+  }
+  
+  .top-image {
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  
+  .bottom-image {
+    width: 280px;
+    height: 320px;
+    background: #E5E7EB;
+    object-fit: cover;
+    position: absolute; 
+    top: 15%;
+    left:15%;
+    // left: 190px;
+  }
+  .bordiringan{
+    display: flex;
+padding: 4px 20px;  
+  border-radius: 12px;}

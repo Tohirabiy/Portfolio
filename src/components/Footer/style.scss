@@ -1,0 +1,41 @@
+.hello {
+    color: var(--gray-600, #4b5563);
+    text-align: center;
+
+    max-width: 576px;
+    align-self: stretch;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+.emaili {
+    color: var(--gray-900, #111827);
+    text-align: center;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: -0.72px;
+}
+.iclass {
+    color: #4b5563;
+}
+
+.phonen {
+    color: var(--gray-900, #111827);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: -0.72px;
+}
+.songi {
+    color: var(--gray-600, #4b5563);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
