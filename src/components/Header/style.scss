@@ -34,24 +34,18 @@ gap: 8px;
     display: none;
 }
 
-@media only screen and (max-width: 375px) {
-    header {
-     
-      font-size: 14px !important;
-
-    }
-.container{
-    display: flex !important;
-    align-items: start !important; 
-    width: 343px !important ;
-    padding: 16px !important;
-}
-    .menubar {
-      display: block ;
-    }
-    .asso_1 {
-      display: none !important;
-    }
-  }
+@media only screen and (max-width: 769px) {
   
+    .asso_1{
+        display: none !important;
+    }
+    .menubar{
+        display: block;
+    }
+} 
+  
+@media only screen and (max-width: 576px) {
+   
+ 
+} 
   

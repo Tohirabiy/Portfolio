@@ -22,8 +22,8 @@ body {
 }
 
 
-.container {
+.container{
   max-width: 1240px;
   margin: 0 auto;
-  padding: 0; /* Remove or reduce padding */
+  padding: 0 20px;
 }

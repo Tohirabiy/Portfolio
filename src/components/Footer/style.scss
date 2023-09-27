@@ -10,6 +10,7 @@
     line-height: 28px; /* 140% */
 }
 .emaili {
+    margin-bottom: 20px;
     color: var(--gray-900, #111827);
     text-align: center;
 
@@ -38,4 +39,54 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
+}
+.bmbm{
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 769px) {
+    .buttonof{
+margin-top: 64px !important;
+    }
+    .hello {
+        color: var(--gray-600, #4b5563);
+
+        max-width: auto !important;         font-size: 18px !important;
+        line-height: 26px !important; /* 140% */
+    }
+    .iclass{
+        font-size: 24px !important;
+    }
+    .emaili {
+    margin-bottom: 10px !important;
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px !important; /* 111.111% */
+        letter-spacing: -0.72px;
+    }
+    .phonen {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px !important; /* 111.111% */
+        letter-spacing: -0.72px;
+    }
+} 
+
+@media only screen and (max-width: 375px) {
+.emaili{
+    font-size: 18px;
+font-style: normal;
+font-weight: 590;
+
+}
+.phonen{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 590;
+        
+}
 }

@@ -1,0 +1,211 @@
+.leadingd{
+    line-height: 72px; 
+letter-spacing: -1.2px;
+
+}
+.dsd{
+    color: var(--gray-600, #4B5563);
+width: 728px;
+}
+.bsdd{
+    width: 24px !important;
+height: 24px !important;
+flex-shrink: 0;
+border-radius: 20px;
+background: #10B981;
+}
+
+.vv {
+    position: relative;
+    width: 300px; /* Adjust the width and height to match your images */
+    height: 200px;
+  }
+  
+  .top-image {
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  .herod {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .bottom-image {
+    width: 280px;
+    height: 320px;
+    background: #E5E7EB;
+    object-fit: cover;
+    position: absolute; 
+    top: 15%;
+    left:15%;
+    // left: 190px;
+  }
+  .bordiringan{
+    display: flex;
+padding: 4px 20px;  
+  border-radius: 12px;}
+
+
+  @media only screen and (max-width: 769px) {
+    .leadingd{
+        font-size: 30px !important;
+
+    }
+.dsd{
+    width: 280px !important;
+}
+.top-image{
+    width: 220px;
+    height: 280px;
+}
+.bottom-image{
+    width: 220px;
+    height: 280px;
+}
+.herod{
+    display: flex !important; /* Make the container a flex container */
+    justify-content: space-between !important; 
+}
+} 
+
+@media only screen and (max-width: 576px) {
+    #hero_it{
+        margin-bottom: -48px !important;
+      }
+
+    .herod {
+        flex-direction: column;
+        justify-content: space-between;
+                
+      }
+    
+      /* Move .right to the top */
+      .righto {
+       
+        display: flex !important;
+        align-items: center !important; 
+       
+                order: -1;
+      }
+      .vv {
+    
+        position: relative;
+        width:300px !important; /* Adjust the width and height to match your images */
+        height: 520px !important;
+        margin-bottom: 20px;
+      }
+      
+    
+      /* Adjust spacing and alignment */
+      .lefto {
+        display: flex !important;
+        align-items: center !important; 
+        flex-direction: column;
+        margin-top: 20px !important; /* Add some space between .left and .right */
+      }
+      .top{
+        
+        
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important; 
+      }
+      .middle{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important; 
+      }
+      .bottom{
+        display: flex !important;
+        
+        align-items: center !important;     
+      }
+    .leadingd{
+        font-size: 30px !important;
+
+    }
+.dsd{
+    width: 280px !important;
+}
+.top-image{ 
+   
+    width: 380px !important;
+    height: 400px;
+}
+.bottom-image{
+    width: 300px !important ;
+    height: 400px;
+}
+
+} 
+@media only screen and (max-width: 375px) {
+ 
+
+
+      .vv {
+    
+        position: relative;
+        width:300px !important; /* Adjust the width and height to match your images */
+        height: 490px !important;
+        margin-bottom: -96px !important;
+      }
+      
+    
+      /* Adjust spacing and alignment */
+      .lefto {
+        display: flex !important;
+        align-items: center !important; 
+        flex-direction: column;
+        margin-top: 20px !important; /* Add some space between .left and .right */
+      }
+      .top{
+        
+        
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important; 
+      }
+      .middle{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important; 
+      }
+      .bottom{
+        display: flex !important;
+        
+        align-items: center !important;     
+      }
+    .leadingd{
+        font-size: 30px !important;
+
+    }
+.dsd{
+    width: 280px !important;
+}
+.top-image{ 
+   
+    width: 240px !important;
+    height: 280px;
+}
+.bottom-image{
+    width: 280px !important ;
+    height: 280px;
+    top: 5% !important;
+    left:-15% !important;
+}
+.colri{
+    color: var(--gray-900, #111827);
+
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+}
+
+} 

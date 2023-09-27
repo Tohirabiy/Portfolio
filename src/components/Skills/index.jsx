@@ -4,7 +4,7 @@ import "./style.scss";
 const index = () => {
   return (
     <section id="skills">
-      <div className="mb-[106px]">
+      <div className="px-[32px] skilo mb-[106px]">
         <div className="flex items-center bordiringa">
           <button
             id="hww bg-[#E5E7EB]"

@@ -1,10 +1,10 @@
 import "./style.scss";
 import Me from "../../assets/images/me.jpg"
-
+import Typewriter from "../TypeWriter"
 
 const index = () => {
   return (
-    <section className="mt-[96px]  ">
+    <section className="mt-[96px]  px-[32px] ">
       <div className="flex items-center bordiringa">
         <button
           id="hww bg-[#E5E7EB]" 
@@ -14,7 +14,7 @@ const index = () => {
         </button>
       </div>
 
-      <div className="  mb-[96px]  flex  gap-x-[192px] justify-between">
+      <div className="  mb-[96px]  abouto flex  justify-between">
         <div className="left ">
           <div class="vvb">
             <img className="top-imageg" src={Me} alt="Base Image" />

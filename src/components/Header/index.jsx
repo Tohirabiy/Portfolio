@@ -3,7 +3,7 @@ import Menu from "../../assets/icons/menu.svg"
 
 const index = () => {
   return (
-    <header className="header bg-white  h-[68px]">
+    <header className="header  px-[32px] bg-white ">
       <div className="container">
         <div className=" flex justify-between items-center py-4  ">
           <div className="title">
@@ -17,7 +17,7 @@ const index = () => {
   <img src={Menu} alt="" />
 </div>
           <div className="flex asso_1">
-            <div className="flex  py-[6px] justify-between gap-x-[24px] font-normal   ">
+            <div className="flex  py-[6px] justify-between fonto  font-normal   ">
               <a className="  likki" href="id:hww">
                 About
               </a>

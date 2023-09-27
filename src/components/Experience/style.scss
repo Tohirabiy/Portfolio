@@ -13,11 +13,18 @@
     font-weight: 400;
     line-height: 24px;
 }
+.yeah{
+    color: var(--gray-600, #4B5563) !important;
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
 .btrr {
- 
     width: 896px;
-height: auto;
-    
+    height: auto;
 }
 
 .center-card {
@@ -29,4 +36,16 @@ height: auto;
     border-radius: 12px;
     background: var(--gray-default, #fff);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+
+@media only screen and (max-width: 375px) {
+    .yeah {
+        color: var(--gray-600, #4b5563);
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+        width: 90% !important;
+    }
 }
