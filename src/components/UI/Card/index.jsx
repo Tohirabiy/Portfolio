@@ -15,7 +15,7 @@ const index = () => {
               
             </div>
 
-            <h4 className="flex text-center justify-center title ">
+            <h4 className="flex text-center justify-center title {` dark:text-white text-black`}">
               {item.title}
             </h4>
         

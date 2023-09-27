@@ -3,7 +3,7 @@ import CardTestimonials from "../UI/CardTestimonials";
 const index = () => {
   return (
     <>
-      <section className="testimonials   mt-[96px] mb-[96px]">
+      <section className="testimonials dark:bg-[#111827] pt-[96px] ">
      <div className=" ">
      <div className="flex items-center bordiringa">
           <button

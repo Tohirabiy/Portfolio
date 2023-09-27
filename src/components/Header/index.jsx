@@ -6,32 +6,28 @@ const Index = () => {
   // State for dark mode
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("darkMode") === "true" || false
-  );
+);
 
-  // Function to toggle dark mode
-  const toggleDarkMode = () => {
+const toggleDarkMode = () => {
     const newDarkMode = !darkMode;
     setDarkMode(newDarkMode);
     localStorage.setItem("darkMode", newDarkMode);
-  };
+};
 
-  // Use useEffect to update the class based on dark mode
-  useEffect(() => {
+useEffect(() => {
     if (darkMode) {
-      document.body.style.backgroundColor = "black";
-      document.querySelector(".title h1").style.color = "white";
+        document.documentElement.classList.add("dark");
     } else {
-      document.body.style.backgroundColor = "white";
-      document.querySelector(".title h1").style.color = "black";
+        document.documentElement.classList.remove("dark");
     }
-  }, [darkMode]);
+}, [darkMode]);
 
   return (
-    <header className={`header px-[32px] ${darkMode ? "bg-dark" : "bg-white"}`}>
+    <header className={`header px-[32px] ${darkMode ? "bg-dark" : "bg-white"} dark:bg-black dark:text-white`}>
       <div className="container">
         <div className="flex justify-between items-center py-4">
           <div className="title">
-            <h1 className="text-[30px] py-[6px] cursor-pointer font-normal">
+            <h1 className="text-[30px] py-[6px] {` dark:text-white text-black`} cursor-pointer fonot">
               &lt;TM/&gt;
             </h1>
           </div>
@@ -68,13 +64,20 @@ const Index = () => {
                 } bx ${darkMode ? "bx-moon" : "bx-sun"}`}
                 onClick={toggleDarkMode}
               ></i>
-              <button
-                className={`px-4 download text-white w-[136px] totorino hover:bg-slate-400 hover:text-[#224184] ${
-                  darkMode ? "bg-[#111827]" : "bg-slate-400"
-                }`}
+              <a
+              target="blank"
+                href="https://harlequin-sandie-64.tiiny.site/CV.pdf"
+                download="CV.pdf"
               >
-                Download CV
-              </button>
+                <button
+                  className={`px-4 download text-white w-[136px] totorino hover:bg-slate-400 hover:text-[#224184] ${
+                    darkMode ? "bg-slate-400" : "bg-[#111827]"
+                  }`}
+                >
+                  
+                  Download CV
+                </button>
+              </a>
             </div>
           </div>
         </div>

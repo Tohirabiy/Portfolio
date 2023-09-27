@@ -26,13 +26,17 @@
     right: 20%;
     // left: 190px;
   }
+  .buttonof{
+    font-family: Inter-Medium;
+  }
   
-  .bordiringa {
+  .bordiringa{
     justify-content: center;
     align-items: center;
   }
   
   .hhe {
+    font-family: Inter-Semibold;
     color: var(--gray-900, #111827);
     font-size: 30px;
     font-style: normal;
@@ -42,6 +46,7 @@
   }
   
   .pda{
+    font-family: Inter-Regular;
     width: 95%;
     margin-bottom: 16px;
     color: var(--gray-600, #4B5563);

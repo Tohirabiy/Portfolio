@@ -8,11 +8,11 @@ const index = () => {
   
 
     return (
-        <div className="container">
+        <>
           <Header/>
            <Layout />
           <Footer/>
-        </div>
+        </>
     );
 };
 

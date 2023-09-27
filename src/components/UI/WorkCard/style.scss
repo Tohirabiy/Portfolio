@@ -7,6 +7,8 @@
     border-radius: 12px;
 }
 .balo {
+    font-family: Inter-Bold;
+
     overflow: hidden;
     color: var(--gray-900, #111827);
     text-overflow: ellipsis;
@@ -15,7 +17,13 @@
     font-weight: 600;
     line-height: 28px; /* 140% */
 }
+.bib{
+    font-family: Inter-Regular;
+
+}
 .bak {
+    font-family: Inter-Medium;
+
     color: var(--gray-600, #4b5563);
     font-size: 16px;
     font-style: normal;

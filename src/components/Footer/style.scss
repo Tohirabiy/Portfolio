@@ -9,6 +9,9 @@
     font-weight: 400;
     line-height: 28px; /* 140% */
 }
+.emaili{
+    font-family: Inter-Semibold !important;
+}
 .emaili {
     margin-bottom: 20px;
     color: var(--gray-900, #111827);
@@ -20,11 +23,14 @@
     line-height: 40px; /* 111.111% */
     letter-spacing: -0.72px;
 }
+
+
 .iclass {
     color: #4b5563;
 }
 
 .phonen {
+    font-family: Inter-Semibold !important;
     color: var(--gray-900, #111827);
     text-align: center;
     font-size: 36px;

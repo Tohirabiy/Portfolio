@@ -10,27 +10,27 @@ const index = () => {
     <div className="flex justify-between flex-col gap-y-4">
     {works_of_me?.map((item, index) => (
       <ul
-        className="flex justify-between nere  hover:shadow-2xl flexys bg-slate-50 p-4"
+        className="flex justify-between nere  {` dark:bg-black dark:text-white`} hover:shadow-2xl flexys bg-slate-50 p-4"
         key={index}
       >
         {index % 2 === 0 ? (
           <>
-     <div className="flex items-center">    <img
+     <div className="flex items-center ">    <img
               className="left_img transition duration-300 ease-in-out hover:scale-110  max-h-[90%]"
               src={item.img}
               alt=""
             /></div>
             <div className="flex flex-col monno  gap-y-4">
               <div>
-                <h3 className="balo">{item.title}</h3>
+                <h3 className="balo dark:text-white">{item.title}</h3>
               </div>
               <div>
-                <p className="bak ">{item.desc}</p>
+                <p className="bak  dark:text-white">{item.desc}</p>
               </div>
               <div className="flex flex-wrap gap-x-2 gap-y-2">
                 {item.lang.map((language, index) => (
                   <button
-                    className="hover:shadow-2xl hover:text-white hover:bg-[#6483c19d] px-4 tugma cursor-pointer"
+                    className="hover:shadow-2xl hover:text-white bib hover:bg-[#6483c19d] px-4 tugma cursor-pointer"
                     key={index}
                   >
                     {language}
@@ -52,10 +52,10 @@ const index = () => {
           <>
             <div className="flex flex-col monno gap-y-4">
               <div>
-                <h3 className="balo">{item.title}</h3>
+                <h3 className="balo dark:text-white">{item.title}</h3>
               </div>
               <div>
-                <p className="bak">{item.desc}</p>
+                <p className="bak dark:text-white">{item.desc}</p>
               </div>
               <div className="flex flex-wrap gap-x-2 gap-y-2">
                 {item.lang.map((language, index) => (

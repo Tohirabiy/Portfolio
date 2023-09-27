@@ -10,30 +10,30 @@ import "./style.scss";
 
  const index = () => {
     return (
-        <div>
-             <section id='hero_it' className="hero  pt-[106px] px-[32px] mb-[96px]">
+      
+             <section id='hero_it'  className="hero  pt-[106px] px-[32px] pb-[96px] {` dark:bg-black dark:text-white`}" >
         <div className="container ">
           <div className="herod flex justify-between">
             <div className="lefto">
               <div className="top">
-                <h2 className="mb-[8px] colri font-bold leadingd text-[62px]">
+                <h2 className="mb-[8px] colri {` dark:text-white`}  leadingd text-[62px]">
                   Hi, I’m Tohirjon 👋
                 </h2>
-                <p className="dsd leading-6 font-normal">
+                <p className="dsd leading-6 font-normal  ">
                   I'm a front-end developer  with a focus on creating exceptional digital
                   experiences that are fast, accessible, visually appealing, and
                   responsive. Even though I have been creating web applications
                   for over 7 years, I still love it as if it was something new.
                 </p>
               </div>
-              <div className="middle mt-[48px]">
+              <div className="middle mt-[48px]  {` dark:text-white text-black`}">
                 <div className="firsrr mb-2 flex gap-x-[8px] text-[#4B5563]">
                   <img src={Location} alt="" />
-                  <p>Tashkent, Chilonozor</p>
+                  <p className= {` dark:text-white text-black`} >Tashkent, Chilonozor</p>
                 </div>
                 <div className="firsrr flex gap-x-[8px] text-[#4B5563]">
                   <img src={Dot} alt="" />
-                  <p>Available for new projects</p>
+                  <p  className= {` dark:text-white text-black`} >Available for new projects</p>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ import "./style.scss";
           </div>
         </div>
       </section>
-        </div>
+        
     );
  };
  

@@ -31,18 +31,18 @@ const index = () => {
   };
 
   return (
-    <footer className=" ">
+    <footer className=" dark:bg-black dark:text-white">
       <div className=" px-[32px] flex items-center bordiringa">
         <button
           id="contact"
-          className="px-[20px] mt-[96px]  mb-[16px] buttonof bg-[#E5E7EB]  items-center flex bordiringan py-1 hover:shadow-2xl hover:text-white hover:bg-[#245dd1] "
+          className="px-[20px] mt-[96px] hewww  mb-[16px] buttonof bg-[#E5E7EB]  items-center flex bordiringan py-1 hover:shadow-2xl hover:text-white hover:bg-[#245dd1] "
         >
           Get in touch
         </button>
       </div>
       <div className="expertize flex flex-col">
         <div className="pasi flex items-center justify-center ">
-          <h3 className="bordiringa hello flex items-center">
+          <h3 className="bordiringa dark:text-white hello salomm flex items-center">
             Imom Buxoriy bobomizning “Al Jome as sahih” kitobining eng birinchi
             hadisi shu hadis bilan boshlangan: “Innamal a’malu bin niyyati”
             ya’ni, “Barcha amallar niyatga bog’liq”.
@@ -52,14 +52,14 @@ const index = () => {
           <div className="obshiy py-[50px] flex flex-col  items-center">
             {" "}
             <div className="perviy flex items-center gap-5">
-              <a
+              <a 
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadiyevtohirjon9@gmail.com"
               >
                 <i className="bx text-[32px] iclass  bx-envelope"></i>
               </a>
-              <h3 className="emaili" ref={emailRef}>
+              <h3 className="emaili dark:text-white" ref={emailRef}>
                 tohirjon9@gmail.com
               </h3>
               <i
@@ -69,7 +69,7 @@ const index = () => {
             </div>
             <div className="vtoroy flex items-center gap-5">
               <i className="bx text-[32px] iclass  bx-phone"></i>
-              <h3 className="phonen" ref={phoneRef}>
+              <h3 className="phonen dark:text-white" ref={phoneRef}>
                 +998 91 282 84 92
               </h3>
               <i
@@ -82,9 +82,9 @@ const index = () => {
             <p>You may also find me on these platforms!</p>
 
             <div className="bottom flex gap-x-1 items-center">
-              <a className="underline" href="https://github.com/Tohirabiy">
+              <a className="underline dark:text-white" href="https://github.com/Tohirabiy">
                 <img
-                  className="p-[6px]  max-w-xs transition duration-300 ease-in-out hover:scale-110     "
+                  className="p-[6px] dark:text-white max-w-xs transition duration-300 ease-in-out hover:scale-110     "
                   src={Git}
                   alt=""
                 />
@@ -92,7 +92,7 @@ const index = () => {
               .
               <a href="https://twitter.com">
                 <img
-                  className="p-[6px]  max-w-xs transition duration-300 ease-in-out hover:scale-110  "
+                  className="p-[6px] dark:text-white max-w-xs transition duration-300 ease-in-out hover:scale-110  "
                   src={Twitter}
                   alt=""
                 />
@@ -106,9 +106,9 @@ const index = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-rows bmbm mt-[96px]  py-[24px] items-center">
+          <div className="flex flex-rows bmbm mt-[96px]  dark:text-white py-[24px] items-center">
             <img src={C_icon} alt="" />
-            <h2 className="songi">
+            <h2 className="songi dark:text-white">
               2023 | <span className="underline"> Designed </span> and{" "}
               <span className="underline">coded</span> with ❤️️ by NAJOT TA’LIM
             </h2>

@@ -2,12 +2,13 @@ import "./style.scss"
 import WorkCard from "../UI/WorkCard"
 const index = () => {
     return (
-        <section className="work   mb-[96px]">
-    <div className="">
+        <section className="work  {` dark:bg-black dark:text-white text-black`}  ">
+    <div className="container">
     <div className="flex items-center bordiringa">
           <button
             id="work"
-            className="px-[20px] mt-[96px] mb-[16px] buttonof bg-[#E5E7EB]  items-center flex bordiringan py-1 hover:shadow-2xl hover:text-white hover:bg-[#245dd1] "
+            // #1F2937
+            className="px-[20px] mt-[96px] mb-[16px] buttonof bg-[#E5E7EB] dark:text-[#1F2937]  items-center flex bordiringan py-1 hover:shadow-2xl hover:text-white hover:bg-[#245dd1] "
           >
             Work
           </button>
