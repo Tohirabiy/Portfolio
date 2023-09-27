@@ -6,7 +6,7 @@ const index = () => {
     <div className="">
     <div className="flex items-center bordiringa">
           <button
-            id="hww bg-[#E5E7EB]"
+            id="work"
             className="px-[20px] mt-[96px] mb-[16px] buttonof bg-[#E5E7EB]  items-center flex bordiringan py-1 hover:shadow-2xl hover:text-white hover:bg-[#245dd1] "
           >
             Work

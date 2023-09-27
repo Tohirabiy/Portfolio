@@ -16,7 +16,7 @@ const index = () => {
         {index % 2 === 0 ? (
           <>
      <div className="flex items-center">    <img
-              className="left_img w-[480px] h-[304px] transition duration-300 ease-in-out hover:scale-110  max-h-[90%]"
+              className="left_img transition duration-300 ease-in-out hover:scale-110  max-h-[90%]"
               src={item.img}
               alt=""
             /></div>

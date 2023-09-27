@@ -1,7 +1,7 @@
 import data from "../../../db"
 import "./style.scss"
 const index = () => {
-    const { languages,second } = data;
+    const { languages, } = data;
 
     return (
         

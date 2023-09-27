@@ -7,7 +7,7 @@ const index = () => {
     <section className="mt-[96px]  px-[32px] ">
       <div className="flex items-center bordiringa">
         <button
-          id="hww bg-[#E5E7EB]" 
+          id="about" 
           className="px-[20px] mt-[96px] mb-[48px] buttonof bg-[#E5E7EB]  items-center flex bordiringan py-1 hover:text-white hover:bg-[#245dd1] "
         >
           About me
